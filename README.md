@@ -22,8 +22,8 @@ _For more advance examples, see [React Native TypeScript examples](https://githu
 
 Scan the following QR code with an Android device to open it in Expo Go or a development build.
 
-<img src="https://qr.expo.dev/eas-update?updateId=116bed98-0501-42fa-bc0b-2f38eb954f9e&appScheme=exp&host=u.expo.dev" width="300" alt="Android demo app" />
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/scanQR.png" width="400" alt="Android demo app" />
 
 Scan the following QR code with an iOS device to open it in Expo Go or a development build.
 
-<img src="https://qr.expo.dev/eas-update?updateId=ffe390fd-6935-4eac-816e-f6856e12ac84&appScheme=exp&host=u.expo.dev" width="300" alt="iOS demo app" />
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/scanQR.png" width="300" alt="iOS demo app" />
