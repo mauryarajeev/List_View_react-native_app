@@ -23,6 +23,7 @@ _For more advance examples, see [React Native TypeScript examples](https://githu
 Scan the following QR code with an Android device to open it in Expo Go or a development build.
 
 <img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/scanQR.png" width="400" alt="Android demo app" />
+![alt text](https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/scanQR.png)
 
 Scan the following QR code with an iOS device to open it in Expo Go or a development build.
 
