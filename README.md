@@ -26,4 +26,32 @@ Scan the following QR code with an Android device to open it in Expo Go or a dev
 
 Scan the following QR code with an iOS device to open it in Expo Go or a development build.
 
-<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/scanQR.png" width="300" alt="iOS demo app" />
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/scanQR.png" width="400" alt="Android demo app" />
+
+### 1. Project Screen in web View in mobile display responsive
+
+### 2. Login Screen
+
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/loginScreen.png" width="400"  />
+
+### 3. Home Screen
+
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/homeA.png" width="400"  />
+
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/homeB.png" width="400"  />
+
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/homeC.png" width="400"  />
+
+### 4. Notes Screen
+
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/notesView.png" width="400"  />
+
+### 5. Add notes screen
+
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/AddNotes.png" width="400"  />
+
+### 6. Profile Screen
+
+<img src="https://github.com/mauryarajeev/List_View_react-native_app/blob/main/image/profile.png" width="400"  />
+
+
