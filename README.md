@@ -1,84 +1,92 @@
-Expo Project README
-Welcome to the README file for your Expo project! This document provides essential information about your project, how to set it up, and how to get started. Whether you're a developer joining the project or a collaborator looking to understand its structure, this README will guide you through the necessary steps.
 
-Table of Contents
-Project Overview
-Getting Started
-Prerequisites
-Installation
-Usage
-Project Structure
-Contributing
-License
-Project Overview
-Describe your Expo project briefly here. Explain its purpose, features, and any other relevant information. Include a high-level overview of the technologies used, such as the versions of Expo, React Native, and any other libraries or dependencies.
+Markdown
+View Raw
+<!-- Title -->
+<h1 align="center">
+  Create React Native App
+</h1>
 
-Getting Started
-This section provides step-by-step instructions on how to set up the project locally and get it running on your machine.
+<!-- Header -->
 
-Prerequisites
-List any software, tools, or dependencies that must be installed before setting up the project. Include links to relevant documentation or installation guides.
+<p align="center">
+  <b>Create React Native apps with no build configuration.</b>
+  <br />
 
-Node.js (version X.X.X)
-Expo CLI (version X.X.X)
-Installation
-Clone this repository to your local machine:
+  <p align="center">
+    <!-- iOS -->
+    <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
+    <!-- Android -->
+    <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
+    <!-- Web -->
+    <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
+  </p>
+</p>
 
-bash
-Copy code
-git clone https://github.com/your-username/your-expo-project.git
-Navigate to the project directory:
+<!-- Body -->
 
-bash
-Copy code
-cd your-expo-project
-Install project dependencies:
+```sh
+npx create-react-native-app
+```
 
-bash
-Copy code
-npm install
-Usage
-Explain how to run and use the project once it's set up. Provide commands that the user can execute to start the development server, build the project, and run tests. Include any environment variables that need to be configured and explain how to do so.
+Once you're up and running with Create React Native App, visit [this tutorial](https://reactnative.dev/docs/tutorial.html) for more information on building apps with React Native.
 
-For example:
+## Features
 
-Start the development server:
+- Native project ready to be built on to your device.
+- Support for unimodules and auto-linking.
+- OTA updates, and Gestures out of the box.
+- Full support for React Native web.
+- TypeScript by default.
+- Works with the Expo Client app.
 
-bash
-Copy code
-expo start
-Run on Android device/emulator:
+## Usage
 
-bash
-Copy code
-expo android
-Run on iOS simulator:
+- `npx create-react-native-app` Create a new React Native app.
+- `yarn ios` -- (`react-native run-ios`) Build the iOS App (requires a MacOS computer).
+- `yarn android` -- (`react-native run-android`) Build the Android App.
+- `yarn web` -- (`expo start:web`) Run the website in your browser.
 
-bash
-Copy code
-expo ios
-Remember to mention any additional steps required for specific platforms or use cases.
+## Sections
 
-Project Structure
-Describe the structure of your Expo project. Provide an overview of the main directories and their purposes. For example:
+- [Usage with Expo Client App](#usage-with-expo-client-app)
+- [Support and Contact](#support-and-contact)
+- [FAQs](#faqs)
+- [Contributing](#contributing)
 
-assets/: Contains static assets such as images, fonts, and icons.
-components/: Includes reusable React Native components used throughout the app.
-screens/: Contains individual screens/pages of the app.
-navigation/: Includes navigation-related configuration and files.
-...
-Contributing
-Explain how others can contribute to your project. Provide guidelines for submitting issues, suggesting enhancements, and making pull requests. If you have a code of conduct, provide a link to it.
+## Usage with Expo Client App
 
-Fork the repository.
-Create a new branch for your feature/bugfix.
-Make your changes and commit them.
-Push your branch to your fork.
-Open a pull request describing your changes.
-License
-State the project's license and provide a link to the full license text if applicable. For example:
+Expo Client enables you to work with all of the [Components and APIs](https://facebook.github.io/react-native/docs/getting-started.html) in React Native, as well as the [JavaScript APIs](https://docs.expo.io/versions/latest/sdk/index.html) that the are bundled with the Expo App.
 
-This project is licensed under the MIT License.
-Include any other relevant information or acknowledgments you want to share.
+Expo Client supports running any project that doesn't have custom native modules added.
 
-Feel free to customize this README template according to your project's specific needs. Providing clear and concise instructions will help both developers and collaborators understand and contribute to your Expo project effectively.
+- Download the "Expo Client" app from the Play Store or App Store.
+- Start your project with Expo
+  - Install the CLI `npm i -g expo-cli`
+  - Start the project `expo start`
+- Open the project:
+  - Sign in to expo and the project will appear in the app.
+  - Or point your phone's camera at the QR code in the terminal (press "c" to view it).
+
+## Support and Contact
+
+If you're having issues with Create React Native App, please make sure:
+
+- The issue is not covered in the [Expo Docs](https://docs.expo.io/versions/latest/)
+- There is not already an [open issue](https://github.com/expo/expo-cli/issues) for your particular problem
+
+If you've checked the documentation and currently open issues, please either [open a new GitHub issue](https://github.com/expo/create-react-native-app/issues/new) or ask a question on [Expo forums](https://forums.expo.io/c/help).
+
+## Contributing
+
+Please see [Contributing guide](https://github.com/expo/expo-cli/blob/master/CONTRIBUTING.md) in the Expo CLI monorepo for instructions on contributing to Expo CLI.
+
+<!-- Footer -->
+
+---
+
+<p>
+    <a aria-label="sponsored by expo" href="http://expo.io">
+        <img src="https://img.shields.io/badge/Sponsored_by-Expo-4630EB.svg?style=for-the-badge&logo=EXPO&labelColor=000&logoColor=fff" target="_blank" />
+    </a>
+    
+</p>
